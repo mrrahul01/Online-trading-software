@@ -1,0 +1,347 @@
+html,body{
+	margin-left: 0;
+	margin-top: 0;
+	background-color: white;
+	font:11px Tahoma, Verdana, Arial, "Trebuchet MS", Helvetica, sans-serif;
+	color: black;
+	background-color: white;
+	top: 0;
+	width: 100%;
+}
+
+/* header section begins*/
+header{
+	top: 0;
+	margin-top: 0;
+	width: 100%;
+	position: relative;
+	font:Tahoma, Verdana, Arial, "Trebuchet MS", Helvetica, sans-serif;
+	background-color:silver;
+	margin-top: 0;
+	display: block;
+	padding-bottom: 5px;
+}
+#bannerHeading{
+	font-size: 25px;
+	margin-top: 0;
+	padding-left: 20px;
+	padding-right: 30px;
+	font-weight: bolder;
+	float: left;
+}
+#bannerSubHeading{
+	font-size: 15px;
+	font-weight: normal;
+	position: relative;
+	margin-top: 0;
+	padding-top: 10px;
+	font-weight: bold;
+
+}
+
+/* header section ends*/
+
+/* Midportion begins */
+
+#wrapper{
+	clear: both;
+	position: relative;
+	margin-left: 0px;
+	top:-20px;
+}
+
+#main
+{
+	float: left;
+	overflow: auto;
+	margin-top: 0;
+	margin-left:20px;
+	
+}
+
+
+/* midportion ends*/
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	color: black;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	text-align: left;
+	margin-top: 10px;
+	background-color: silver;
+	border:0 !important;
+	/*box-shadow*/
+	-webkit-box-shadow:0 0 0 #CCCCCC;
+   	-moz-box-shadow:0 0 0 #CCCCCC;
+        box-shadow:0 0 0 #CCCCCC;
+	border:0;
+}
+
+
+
+
+/* table stylesheet*/
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables display
+ */
+
+div.theadContainer { 
+    width: 100%;
+
+
+}
+div.tbodyContainer { 
+    height: 500px; 
+    overflow: auto; 
+    width: 100%;
+}
+
+
+table.display {
+	margin-top: 20px;
+	width: 50%;
+	font:11px Tahoma, Verdana, Arial, "Trebuchet MS", Helvetica, sans-serif;
+	color: #444;
+}
+
+table.display thead tr {
+	background-color: #F6D8CE;
+	font:11px Tahoma, Verdana, Arial, "Trebuchet MS", Helvetica, sans-serif;
+	
+}
+
+table.display thead th {
+	padding: 2px 20px 2px 8px;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	
+}
+
+table.display tbody{
+	
+}
+
+table.display td {
+	padding: 2px 20px 2px 8px;
+}
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables row classes
+ */
+
+
+table.display tr.odd{
+	background-color: #ddffdd;
+}
+
+table.display tr.even {
+	background-color: #ffeeee;
+}
+
+
+table.display tr.editRow {
+	background-color: #F7BE81;
+}
+table.display tr.passwordResetRow{
+	background-color: #E9967A;	
+}
+
+
+/* pagination */
+
+#pagination{
+    float: left;
+    font:11px Tahoma, Verdana, Arial, "Trebuchet MS", Helvetica, sans-serif;
+    color:black;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    width:100%;
+}
+#pagination a, #pagination strong{
+    list-style-type: none;
+    display: inline;
+    padding: 5px 8px;
+    text-decoration: none; 
+    background-color: inherit;
+    color: #EC7117;
+    font-weight: bold;
+}
+#pagination strong{
+    color: black;
+    background-color: gray;/*#F00;*/
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-decoration: none; 
+}
+#pagination a:hover{
+    color: blue;
+    background-color: gray;/*#F00;*/
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-decoration: none; 
+}
+
+/* Forms*/
+form{
+	margin-top: 15px;
+	background-color: silver;
+	padding: 2px;
+	margin-bottom: 15px;
+	margin-left: 0;
+}
+
+
+fieldset{
+    
+    font:13px Tahoma, Verdana, Arial, "Trebuchet MS", Helvetica, sans-serif;
+    color:black;
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+
+}
+.formClose{
+	float: right;
+	margin-top: -12px;
+	margin-right: 0;
+	
+}
+.formP{
+	display: table-row;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+.formUpload{
+	display: table-row;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+.formLabel{
+    clear:both;
+    display: table-cell; 
+    padding: 0 1em; 
+    text-align: left;
+    color:#3d3d3d;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.radioLabel{
+	color: #3d3d3d;
+	padding-left: 2px;
+	padding-right: 10px;
+	background-color: white;
+}
+.formInput{
+	
+}
+.formList{
+
+	
+}
+
+.formButton {
+	
+	box-shadow:inset 0px 0px 9px -24px #cae3fc;
+	background-color:#79bbff;
+	text-indent:0;
+	border:2px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-weight:bold;
+	font-style:normal;
+	
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 8px 7px #287ace;
+	margin-top: 10px;
+}
+.formButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+	background-color:#4197ee;
+}
+.formButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* form validation error message*/
+.validationError{
+	clear: both;
+	float: left;
+
+}
+.oprtMessage {
+  width: 25%;
+  box-shadow:inset 0px 0px 9px -24px #cae3fc;
+  background-color: silver;
+  color: black;
+  display: none;
+}
+.verify
+{
+    margin-left: 5px;
+    position: absolute;
+    font-weight: normal;
+}
+
+.perPage, .perAlbum{
+	
+	margin-left:0;
+
+}
+.perPageLabel{
+    clear:both;
+    text-align: left;
+    color:black;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.pageContents{
+	text-align: justify;
+	width: 70%;
+	
+	
+}
+
+
+/* Reset Button*/
+.reset a{
+	float: left;
+	/*margin-right: 150px;*/
+		
+	box-shadow:inset 0px 0px 9px -24px #cae3fc;
+	background-color:#79bbff;
+	text-indent:0;
+	border:1px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-weight:bold;
+	font-style:normal;
+	
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 8px 7px #287ace;
+	/*margin-top: 10px;*/
+}
+.reset a:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+	background-color:#4197ee;
+}
+.reset a:active {
+	position:relative;
+	top:1px;
+}
